@@ -1,0 +1,24 @@
+/** @format */
+
+.button-container {
+  display: flex;
+  padding: 25px 10px;
+  border-top: 1px solid rgb(218, 220, 224);
+  .start {
+    background-color: rgb(26, 115, 232);
+    width: 75px;
+  }
+  .stop {
+    background-color: rgb(26, 115, 232);
+    width: 75px;
+  }
+  .reset {
+    color: rgb(26, 115, 232);
+  }
+  button {
+    padding: 8px 15px;
+    border: none;
+    color: antiquewhite;
+    margin-right: 20px;
+  }
+}

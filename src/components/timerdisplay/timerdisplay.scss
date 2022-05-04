@@ -1,0 +1,22 @@
+/** @format */
+
+.number-container {
+  width: 50%;
+  // border-right: 1px solid rgb(218, 220, 224);
+  text-align: center;
+  padding: 50px 0px;
+  font-size: 20px;
+  // span:nth-child(2n + 0) {
+  //   padding-right: 10px;
+  // }
+  input {
+    width: 40px;
+    margin: 0 10px;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    appearance: none;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+}
