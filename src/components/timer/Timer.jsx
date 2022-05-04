@@ -17,6 +17,7 @@ const Timer = () => {
     if (active) {
       secId = setInterval(() => {
         if (sec <= 0) {
+          console.log(sec);
           setSec(0);
           clearInterval(secId);
         } else {
